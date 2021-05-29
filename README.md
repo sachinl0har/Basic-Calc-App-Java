@@ -1,6 +1,6 @@
 # Basic-Calc-App-Java
 
-![Download Link](https://www.sachinlohar.ml/assets/img/CalcJava.apk)
+[Download Link](https://www.sachinlohar.ml/assets/img/CalcJava.apk)
 
 
 <img src="https://github.com/sachinl0har/Basic-Calc-App-Java/blob/master/addition.png" class="img-fluid" alt="" width="200px" height="400vh">
