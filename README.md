@@ -1,6 +1,6 @@
 # Basic-Calc-App-Java
 
-![Main Window](https://github.com/sachinl0har/Basic-Calc-App-Java/blob/master/addition.png = 100x300)
+![Main Window](https://github.com/sachinl0har/Basic-Calc-App-Java/blob/master/addition.png?raw=true)
 
 ![Main Window](https://github.com/sachinl0har/Basic-Calc-App-Java/blob/master/Arm.png?raw=true)
 
