@@ -2,6 +2,8 @@ package com.example.basiccalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 import android.os.Bundle;
@@ -52,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "1");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button1.startAnimation(animation);
             }
         });
 
@@ -59,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "2");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button2.startAnimation(animation);
             }
         });
 
@@ -66,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "3");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button3.startAnimation(animation);
             }
         });
 
@@ -73,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "4");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button4.startAnimation(animation);
             }
         });
 
@@ -80,6 +90,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "5");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button5.startAnimation(animation);
             }
         });
 
@@ -87,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "6");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button6.startAnimation(animation);
             }
         });
 
@@ -94,6 +108,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "7");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button7.startAnimation(animation);
             }
         });
 
@@ -101,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "8");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button8.startAnimation(animation);
             }
         });
 
@@ -108,6 +126,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "9");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button9.startAnimation(animation);
             }
         });
 
@@ -115,12 +135,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 edt1.setText(edt1.getText() + "0");
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                button0.startAnimation(animation);
             }
         });
 
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonAdd.startAnimation(animation);
                 if (edt1.getText().length() != 0) {
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Addition = true;
@@ -132,6 +156,8 @@ public class MainActivity extends AppCompatActivity {
         buttonSubstract.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonSubstract.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Substract = true;
@@ -143,6 +169,8 @@ public class MainActivity extends AppCompatActivity {
         buttonMultiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonMultiply.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Multiplication = true;
@@ -154,6 +182,8 @@ public class MainActivity extends AppCompatActivity {
         buttonDivide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonDivide.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Division = true;
@@ -165,6 +195,8 @@ public class MainActivity extends AppCompatActivity {
         buttonMod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonMod.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Modulus = true;
@@ -176,6 +208,8 @@ public class MainActivity extends AppCompatActivity {
         buttonPower.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonPower.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Power = true;
@@ -187,6 +221,8 @@ public class MainActivity extends AppCompatActivity {
         buttonRoot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonRoot.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Root = true;
@@ -198,6 +234,8 @@ public class MainActivity extends AppCompatActivity {
         buttonCelsius.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonCelsius.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Celsius = true;
@@ -209,6 +247,8 @@ public class MainActivity extends AppCompatActivity {
         buttonFah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonFah.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     Fah = true;
@@ -220,6 +260,8 @@ public class MainActivity extends AppCompatActivity {
         buttonArm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonArm.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input = Integer.parseInt(edt1.getText() + "");
                     Armstrong = true;
@@ -231,6 +273,8 @@ public class MainActivity extends AppCompatActivity {
         buttonFact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonFact.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input = Integer.parseInt(edt1.getText() + "");
                     Fact = true;
@@ -242,6 +286,8 @@ public class MainActivity extends AppCompatActivity {
         buttonRandN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonRandN.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input1 = Float.parseFloat(edt1.getText() + "");
                     RandN = true;
@@ -253,6 +299,8 @@ public class MainActivity extends AppCompatActivity {
         buttonReverse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonReverse.startAnimation(animation);
                 if (edt1.getText().length() != 0){
                     input = Integer.parseInt(edt1.getText() + "");
                     Reverse = true;
@@ -265,6 +313,8 @@ public class MainActivity extends AppCompatActivity {
         buttonEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonEqual.startAnimation(animation);
                 if (Addition || Substract || Multiplication || Division || Modulus || Power || RandN) {
                     input2 = Float.parseFloat(edt1.getText() + "");
                 }
@@ -359,6 +409,8 @@ public class MainActivity extends AppCompatActivity {
         buttonAC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonAC.startAnimation(animation);
                 edt1.setText("");
                 input1 = 0.0;
                 input2 = 0.0;
@@ -368,6 +420,8 @@ public class MainActivity extends AppCompatActivity {
         buttonDot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
+                buttonDot.startAnimation(animation);
                 if (decimal) {
                     //do nothing or you can show the error
                 } else {
